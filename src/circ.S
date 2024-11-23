@@ -3,7 +3,7 @@
 
 .section .rodata
 pi: 
-	.double 6.283185307
+    .double 6.283185307
 
 .section .text
 circ:
