@@ -23,9 +23,8 @@ gcc -O3 -o main circ-simple circ-simple.S
 # Run the binaries
 ./main
 ```
-### Benchmark Results
-
-#### Time (in seconds)
+## Benchmark Results
+The benchmark is conducted five times, and the average of the results for each function is calculated.
 | Method       | Time Taken   | Cycles Taken
 |--------------|--------------|--------------|
 | **circ-fast**  | 0.0045174s   | 13,181,039.2    |
